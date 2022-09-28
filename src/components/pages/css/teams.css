@@ -59,17 +59,18 @@ section.review{
 
   .review .box{
     justify-content: space-around;
-    width:260px;
+    width:200px;
     text-align: center;
     box-shadow: none;
   }
 
   .review .box h3{
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .review .box p{
-    font-size: 1rem;
+    font-size: 10px;
+    text-align: justify;
     padding:1rem 0;
   }
 }

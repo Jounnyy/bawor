@@ -63,10 +63,16 @@
     border-width: 2px;
 }
 
+.full__gallery{
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
 .img__gallery{
     padding: 5px;
     height: 350px;
-    width: 100%;
+    width: 33%;
 }
 
 @media screen and (max-width: 767px) {
@@ -83,10 +89,15 @@
         align-items: center;
     }
 
-    .full__gallery {
+    .full__gallery{
         display: flex;
         flex-direction: column;
+        align-items: center;
         margin: 0 auto;
         justify-content: center;
+    }
+
+    .img__gallery{
+        width: 100%;
     }
 }

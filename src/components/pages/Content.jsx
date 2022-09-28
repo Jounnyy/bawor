@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { FaTiktok, FaSpotify, FaInstagram, FaYoutube, FaLinkedinIn, FaFacebookF, FaTwitter } from 'react-icons/fa';
 import { AiOutlineBars, AiOutlineCopy, AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { FaMapMarkerAlt, FaPhoneAlt, FaFax, FaEnvelope, FaGlobe } from "react-icons/fa";
-import { FaTiktok, FaSpotify, FaInstagram, FaYoutube } from 'react-icons/fa';
 import { MdOutlineLibraryBooks } from 'react-icons/md';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { BsMouse, BsWhatsapp } from 'react-icons/bs';
@@ -14,7 +14,6 @@ import baworDigitalMarketing from '../assets/bawor/bawor_digital_marketing.png';
 import baworEventOrganizer from '../assets/bawor/bawor_event_oraganizer.png';
 import baworAdvertising from '../assets/bawor/Logo Logo sub bawor-02.png';
 import baworPublishing from '../assets/bawor/Logo Logo sub bawor-03.png';
-import baworFinance from '../assets/bawor/Mesa de trabajo 1@3x.png';
 import baworFilm from '../assets/bawor/Logo Logo sub bawor-01.png';
 import kelinda from '../assets/bawor/Kelinda_logo_support.jpeg';
 import logo from '../assets/bawor/LOGO PT VERSI 2 WEB.png';
@@ -162,15 +161,15 @@ const Content = () => {
         </section>
       </div>
       <section className='features' id='about'>
+        <div className="features-content">
         <div className="container features">
           <div className='u-title' data-aos="fade-down" data-aos-duration="2500">
             <AiOutlineCopy color='orangered' size={40}/>
             <h2>About Us</h2>
             <p className='u-text-small u-text-dark'>
               {t('about.info')}
-              </p>
+            </p>
           </div>
-          <div className="features-content">
             <div className="features-left" data-aos="fade-up">
               <img src={aboutPict} alt="about picture"/>
             </div>
@@ -194,16 +193,19 @@ const Content = () => {
       <h2 data-aos='fade-down'data-aos-duration='3000' >Social Media</h2>  
       <div className="social-icons">
         <div className='social-icon' data-aos="zoom-in-up" data-aos-duration='1000'>
-          <a className="youtube" href="https://www.youtube.com/"><FaYoutube /></a>
+          <a className="youtube" href="https://youtube.com/channel/UCuMXlOSncSFQ_l7aWO4Bzzw"><FaYoutube /></a>
         </div>
         <div className='social-icon' data-aos="zoom-in-up" data-aos-duration='1500'>
-          <a className="tiktok" href="https://www.instagram.com/"><FaTiktok /></a>
+          <a className="tiktok" href="https://mobile.twitter.com/ptbsi"><FaTwitter /></a>
         </div>
         <div className='social-icon' data-aos="zoom-in-up" data-aos-duration='2000'>
-          <a className="spotify" href="https://open.spotify.com/"><FaSpotify /></a>
+          <a className="spotify" href="https://www.linkedin.com/mwlite/in/bawor-seni-internasional-325720248"><FaLinkedinIn /></a>
         </div>
         <div className='social-icon' data-aos="zoom-in-up" data-aos-duration='2500'>
-          <a className="instagram" href="https://www.instagram.com/"><FaInstagram /></a>
+          <a className="instagram" href="https://instagram.com/baworseniinternasional?igshid=YmMyMTA2M2Y="><FaInstagram /></a>
+        </div>
+        <div className='social-icon' data-aos="zoom-in-up" data-aos-duration='2500'>
+          <a className="instagram" href="https://m.facebook.com/PTbaworseniinternasional"><FaFacebookF /></a>
         </div>
       </div>
       </section>
@@ -229,12 +231,6 @@ const Content = () => {
                     <div class="text">Bawor Publishing</div>
                   </div>
                 </div>
-                <div class="container__support" data-aos="zoom-in-down" data-aos-duration='1000'>
-                  <img src={baworFinance} alt="Avatar" class="image" />
-                  <div class="overlay">
-                    <div class="text">Bawor Finance</div>
-                  </div>
-                </div>
                 </div>
                 <div className='support__list'>
                   <div class="container__support" data-aos="zoom-in-down" data-aos-duration='1000'>
@@ -255,7 +251,7 @@ const Content = () => {
                     <div class="container__support" data-aos="zoom-in-down" data-aos-duration='2500'>
                       <img src={kelinda} alt="Avatar" class="image" />
                       <div class="overlay">
-                        <div class="text">Kelinda</div>
+                        <div class="text">Kelindan Studio</div>
                       </div>
                     </div>
                     <div class="container__support" data-aos="zoom-in-down" data-aos-duration='2000'>

@@ -49,6 +49,12 @@
 
 @media screen and (max-width: 600px){
     .features-content {
+        display: flex;
         flex-direction: column;
     }
+
+    .u-title p{
+        text-align: justify;
+    }
+
 }

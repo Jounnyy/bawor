@@ -35,3 +35,12 @@
   margin: 0 auto;
   color: var(--dark-text);
 }
+
+@media screen and (max-width: 600px) {
+  .u-text-small {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: justify;
+  }
+}

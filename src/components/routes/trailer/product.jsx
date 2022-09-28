@@ -42,7 +42,7 @@ const Trailer = () => {
             <li><a href="/event">Event</a></li>
             <li><a href="/news">News</a></li>
             <li><a href="/#our-teams">Teams</a></li>
-            <li><a href="/our-service">Service</a></li>
+            <li><a href="/our-product">Product</a></li>
             <li><a href="/#support">Support</a></li>
             <li><a href="/#social-media">Social Media</a></li>
             <li><a href="/#contact">Contact</a></li>
@@ -115,6 +115,7 @@ const Trailer = () => {
             </div>
             <div className='right-content'>
               <h2 className='title__film'>{t('trailer.sofi.title')}</h2>
+              <p className='about__film'><b>Based On Story By : </b>{t('trailer.sofi.special')}</p>
               <p className='about__film'><b>Director : </b>{t('trailer.sofi.director')}</p>
               <p className='about__film'><b>Write Script : </b>{t('trailer.sofi.writeScript')}</p>
               <p className='about__film'><b>producer : </b>{t('trailer.sofi.producer')}</p>
