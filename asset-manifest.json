@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/bawor/static/css/main.674da8a2.css",
+    "main.js": "/bawor/static/js/main.f200d21a.js",
+    "static/media/LOGO PT VERSI 2 WEB.png": "/bawor/static/media/LOGO PT VERSI 2 WEB.20e9f920342ff766736a.png",
+    "static/media/mata dewa.jpg": "/bawor/static/media/mata dewa.35022c9b0a24046d9679.jpg",
+    "static/media/dewa.jpg": "/bawor/static/media/dewa.8200593b3379cbfea1fd.jpg",
+    "static/media/mata_dewa.jpg": "/bawor/static/media/mata_dewa.8200593b3379cbfea1fd.jpg",
+    "static/media/sofi.jpg": "/bawor/static/media/sofi.9d8fc3f0997bccc9e504.jpg",
+    "static/media/fendi.jpg": "/bawor/static/media/fendi.7fcb83e8804d5b61c0b8.jpg",
+    "static/media/about.png": "/bawor/static/media/about.7878379a8700d5c6d8c6.png",
+    "static/media/bawor_digital_marketing.png": "/bawor/static/media/bawor_digital_marketing.e737c733b5d0bc665954.png",
+    "static/media/banner_news.jpeg": "/bawor/static/media/banner_news.12adcac0a1bf763dbcab.jpeg",
+    "static/media/film dewa.jpg": "/bawor/static/media/film dewa.7a1d79583f01f13757b9.jpg",
+    "static/media/bawor_event_oraganizer.png": "/bawor/static/media/bawor_event_oraganizer.abdc0d112b865ad225ba.png",
+    "static/media/shanaya films.jpg": "/bawor/static/media/shanaya films.9ce2c25962020ef53e7b.jpg",
+    "static/media/ed.png": "/bawor/static/media/ed.8566e15bbc2ab2b44404.png",
+    "static/media/Logo Logo sub bawor-01.png": "/bawor/static/media/Logo Logo sub bawor-01.609a64b562179932cc57.png",
+    "static/media/social.jpg": "/bawor/static/media/social.20841a4d1294bb58326b.jpg",
+    "static/media/Kelinda_logo_support.jpeg": "/bawor/static/media/Kelinda_logo_support.84c97aeb37dd9c9152fc.jpeg",
+    "static/media/bawor_films_support.jpeg": "/bawor/static/media/bawor_films_support.76c8aa109e616ce84fec.jpeg",
+    "static/media/Mesa de trabajo 1@3x.png": "/bawor/static/media/Mesa de trabajo 1@3x.1a032641019c1201afcb.png",
+    "static/media/Logo Logo sub bawor-03.png": "/bawor/static/media/Logo Logo sub bawor-03.445451e80fa6c47cbc26.png",
+    "static/media/logo.png": "/bawor/static/media/logo.6e0df0e704111bb9af89.png",
+    "static/media/kenny.jpg": "/bawor/static/media/kenny.f3f5c350e9e07b0ce5fb.jpg",
+    "static/media/address.png": "/bawor/static/media/address.a01cb8cc428702f30bec.png",
+    "static/media/rad.png": "/bawor/static/media/rad.dea25d131576560b3c27.png",
+    "static/media/email.png": "/bawor/static/media/email.a49e015815e3ac6d2bd3.png",
+    "static/media/Logo Logo sub bawor-02.png": "/bawor/static/media/Logo Logo sub bawor-02.d4aafdba3ef81e89001e.png",
+    "static/media/idris_sardi.jpg": "/bawor/static/media/idris_sardi.769f21107c2caaff4084.jpg",
+    "static/media/phone.png": "/bawor/static/media/phone.d90a6d23cf5129d853bb.png",
+    "index.html": "/bawor/index.html",
+    "static/media/getFetch.cjs": "/bawor/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.674da8a2.css.map": "/bawor/static/css/main.674da8a2.css.map",
+    "main.f200d21a.js.map": "/bawor/static/js/main.f200d21a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.674da8a2.css",
+    "static/js/main.f200d21a.js"
+  ]
+}
