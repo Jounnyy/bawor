@@ -1,0 +1,187 @@
+.trailer{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.header__trailer{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-image: url('../../assets//bawor/bawor_films_support.jpeg');
+    text-align: center;
+    background-size: cover;
+    background-attachment:local;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header__trailer:before{
+    background-size: cover;
+    position:absolute;
+    left: 0;
+    top: 0;
+    width : 100%;
+    height: 100%;
+    background: inherit;
+    z-index: -1;
+
+    filter: blur(4px);
+    -moz-filter   : blur(4px);
+    -webkit-filter: blur(4px);
+    -o-filter     : blur(4px);
+
+    transition        : all 2s linear;
+    -moz-transition   : all 2s linear;
+    -webkit-transition: all 2s linear;
+    -o-transition     : all 2s linear;
+}
+
+.title__trailer{
+    padding-top: 200px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.title__product{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    padding: 0 0 70px 0;
+}
+
+.image__trailer{
+    width: 90%;
+    border-radius: 20px;
+}
+
+.film__content{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0 0 60px 0;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.right-content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.title__film{
+    font-weight: 300;
+    font-size: 4rem;
+    padding-bottom: 10px;
+}
+
+.about__film{
+    font-size: 1.6rem;
+    padding: 4px;
+}
+
+.about__film b{
+    font-size: 1.6rem;
+}
+
+.list__iklan{
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container__iklan{
+    position: relative;
+    margin: 20px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.iklan__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.overlay__iklan{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay__iklan:hover{
+  transition: .5s;
+  transform: translate(-10%,0%);
+}
+
+.container__iklan:hover .overlay__iklan{
+  opacity: 1;
+  cursor: pointer;
+}
+
+.text a{
+  font-size: 30px;
+  color: #fff;
+  box-shadow: -1px -4px 247px 75px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -1px -4px 247px 75px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px -4px 247px 75px rgba(0,0,0,0.75);
+  text-shadow: 0px -1px 33px rgba(0,0,0,0.68);
+  position: absolute;
+  background: transparent;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+.text a:hover {
+    color: orangered;
+    transition: .5s;
+}
+
+@media screen and (max-width: 600px){
+    .film__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+    .left-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .right-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .image__trailer{
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .button__trailer{
+        display: flex;
+        margin: 0 auto;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

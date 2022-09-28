@@ -1,0 +1,58 @@
+export const trailer = [
+    {
+        id: 1,
+        image : '../trailer/mata_dewa.jpg',
+        name : "Mata Dewa",
+        director : "Andi Bachtiar Yusuf",
+        writeScript : "Oka Aurora & Andi Bachtiar Yusuf",
+        producer : "Avesina Soebli & Mh. Nur. Wicaksono",
+        cast : "Kenny Austin (sebagai Dewa), Brandon Salim (sebagai Bumi), Agatha Chelsea (sebagai Bening), Nino Fernandez (sebagai Pelatih Basket), Ariyo Wahab (sebagai Mantan Petinju), Dodit Mulyanto (sebagai Paman Dewa)",
+        aired : "08 Maret 2018",
+        episode : "-",
+        duration: "86 Menit",
+        production : "Sinema Imaji DBL Indonesia Shanaya Films",
+        sinopsis : "Dewa (Kenny Austin) ingin membawa sekolahnya, SMA Wijaya, menjadi juara DBL untuk pertama kalinya. Dewa dan timnya dibantu oleh pelatih Miko (Nino Fernandez). Bumi (Brandon Salim), koordinator supporter, selalu berada di tribun penonton untuk memimpin teman-teman sekolahnya. Bening (Agatha Chelsea), jurnalis SMA Wijaya, aktif mengikuti perjalanan tim basket SMA Wijaya. Dewa yang semula angkuh hatinya luluh. Petaka menimpa Dewa, saat menolong Bening dari penjambretan. Mata kirinya dihajar preman. Akibatnya, satu matanya tidak dapat berfungsi baik. Dewa patah arang. Seorang mantan petinju kawakan (Ariyo Wahab) yang tinggal di seberang rumah susun pamannya (Dodit Mulyanto), membantu Dewa dari keterpurukan "
+    },
+    {
+        id: 2,
+        image : '../trailer/idris_sardi.jpg',
+        name : "Dokumenter Idris Sardi",
+        director : "Muhammad Adrai & Eno Wicaksono",
+        writeScript: "Muhammad Adrai",
+        producer : "Mh. Nur. Wicaksono",
+        cast : "Santi Sardi (Anak Alm. Idris Sardi), Slamet Rahardjo Djarot (Aktor & Sutradadara), Addie MS (Komponis) , Fadli Zon (Penulis & Budayawan), Maylaffayza (Pemain Biola), Alm. Alex Komang (Aktor), Bens Leo (Pengamat Musik) , Harris Nizam (Sutradara Film) (2014)",
+        aired : "2014",
+        episode : "-",
+        duration: "25 Menit",
+        production : "Independen",
+        sinopsis : "Dokumenter Idris Sardi adalah sebuah dokumenter perjalanan biografi seorang maestro Biola Indonesia yang bernama Alm. Idris Sardi, beliau salah satu ilustri musik pertama sebelum Eros Djarot. Dokumenter tersebut mengambil  sudut pandang dari narasumber – narasumber yang mengetahui atau memahami biografi Alm. Idris Sardi seperti Santi Sardi (Anak Alm. Idris Sardi), Slamet Rahardjo Djarot (Aktor & Sutradadara), Addie MS (Komponis) , Fadli Zon (Penulis & Budayawan), Maylaffayza (Pemain Biola), Alm. Alex Komang (Aktor), Bens Leo (Pengamat Musik) , Harris Nizam (Sutradara Film)."
+    },
+    {
+        id: 3,
+        image : '../trailer/sofi.jpg',
+        name : "Filo + Kopi = Sofi (Langkah Pertama Cerita Cinta Dalam Kopi)",
+        director : "Leo Agung & Ikak Story",
+        writeScript : "Ikak Story, Nasya Kim, Joko Nugroho",
+        producer : "Mh. Nur. Wicaksono. ",
+        cast : "Debo Andryos, Affiah Ifa’nda, Maulid Suprayitno, Febry Rency, Ike Mukti",
+        aired : "2021",
+        episode: "1 Episode – 6 Episode  ",
+        duration: "-",
+        production : "BAS Entertainment & 73 Films Media Publikasi Independen",
+        sinopsis : "Tak bisa dipungkiri, sekarang ini sedang hits era ngopi. Budaya nongkrong juga memasuki era baru yang prestige. Kafe bertebaran dimana-mana. Kafe juga menjadi ruang baru , tidak hanya sekedar menjadi tempat nongkrong tapi juga fungsi tempat bertemu, meeting kerjaan atau pun yang lainnya. Tapi tidak semuanya bawa sukses story. Salah satunya adalah kafe dalam cerita ini. Sebuah kafe kecil yang mencoba terus bertahan diantara lingkaran persaingan. Café yang napasnya ngap-ngapan. Tapi ini bukan sebuah sad story, ini adalah sweet love story. Kafe ini dimiliki oleh SOFI, gadis manis yang coba hidup mandiri dengan mencoba peruntungan membuka cafe. Niatan ini bukan tanpa pertentangan. Orangtua Sofi sebenarnya tak setuju. Mereka lebih senang Sofi hidup seperti gadis lain dikelas mereka. Ada FILO barista muda yang punya motif cinta, cinta kepada ownernya cafe. Dan IKIK, anak pra abg dari kampong belakang kafe yang awalnya suka main ke kafe demi mendapatkan wifi gratis tapi lama – lama mengikrarkan diri jadi junior barista. Lalu apakah love story antara Sofi-Filo berjalan mulus. Tentu tidak. Banyak rintangan antara mereka. Kadang personal anetik owner dengan baristanya, etik profesionalitas, kadang Tarik menarik dari orang -  orang dibackground story masing - masing. Seperti mantan Sofi yang rajin datang ke café serta punya niatan ngajak balikan.  Demikian juga dengan Filo dengan beberapa gadis yang sebelumnya punya story dimasa lalu. Kedatangan mereka lebih sering membuat goncangan bagi keduanya, yang membuat keduanya jadi saling Tarik ulur. Tapi yang jelas, antara Filo dan Sofi, keduanya saling melengkapi."
+    },
+    {
+        id: 4,
+        image : '../trailer/fendi.jpg',
+        name : "Foto Estetika Fendi Siregar",
+        director : "Wicaksono",
+        writeScript : "Risky",
+        producer : "Mh. Nur. Wicaksono",
+        cast : "Ir. Priai Soefjanto (Fotografer & Dosen FFTV IKJ), Puan Dinar Aifa (Anak Fendi Siregar), Rotua Magdalena (Perupa), Alm. Prof. Sapardi Djoko Darmono (Sastrawan & Guru Besar IKJ), Muhammad Revaldi (Fotografer Indonesia)",
+        aired : "2015",
+        episode : "-",
+        duration: "25 Menit",
+        production : "FFTV IKJ",
+        sinopsis : "Dokumenter Foto Estetika Fendi Siregar adalah sebuah dokumenter perjalanan biografi seorang fotografer senior Indonesia yang bernama Fendi Siregar, beliau salah satu fografer di Indonesia yang mempunyai karya fotografi yang fenomenal yaitu Sisi Lain Serat Centhini: Sebuah Tafsir Visual . Dokumenter tersebut mengambil  sudut pandang dari narasumber – narasumber yang mengetahui atau memahami biografi Fendi Siregar seperti Ir. Priai Soefjanto (Fotografer & Dosen FFTV IKJ), Puan Dinar Aifa (Anak Fendi Siregar), Rotua Magdalena (Perupa), Alm. Prof. Sapardi Djoko Darmono (Sastrawan & Guru Besar IKJ), Muhammad Revaldi (Fotografer Indonesia)."
+    },
+]

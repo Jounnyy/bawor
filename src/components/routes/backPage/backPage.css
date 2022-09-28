@@ -1,0 +1,26 @@
+.back {
+    position: fixed;
+    border: 1px solid orangered;
+    border-radius: 50%;
+    background-color: orangered;
+    color: white;
+    padding: 5px 10px 1px 10px;
+    text-align: center;
+    font-size: 30px;
+    bottom: 30px;
+    left: 30px;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.back:hover{
+    color: orangered;
+    background: transparent;
+    transition: .5s;
+}
+
+@media screen and (max-width: 600px) {
+    .back{
+        left: 0;
+    }
+}

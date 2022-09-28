@@ -1,0 +1,141 @@
+.content__news {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.content__news__left {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-top: 20px;
+}
+
+.content__news__right {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.title__content__news {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--dark-blue);
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.6);
+}
+
+.content__image__news{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin: 1px;
+}
+
+.image__news__content{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.content-1, .content-2, .content-3, .content-4{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.other__news{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.other__news__box {
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    border-radius: 7px;
+}
+
+.other__news__box:hover{
+    opacity: 1;
+    transform: scale(1.01);
+    transition: all 0.6s;
+    box-shadow: 1px 1px 9px 11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 9px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 9px 11px rgba(0,0,0,0.75);
+}
+
+.image__other__news {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.left__other__news {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.right__other__news {
+    margin: 0 auto;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    text-align: start;
+}
+
+.other__news__title {
+    margin: 0 0 5px 0;
+    font-size: 1.2rem;
+    color: var(--color-dark);
+    font-weight: 500;
+}
+
+.other__news__desc {
+    color: var(--color-dark);
+    font-size: 5px;
+}
+
+.logo_bawor{
+    display:flex;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .content__news__left {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        width: 100%;
+        margin: 10px
+    }
+    .content__news__right{
+        display: none;
+        margin: 0;
+    }
+}

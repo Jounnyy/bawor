@@ -1,17 +1,27 @@
 import React from 'react';
+import { Event, Trailer, News, Sofi, Kenny, FilmDewa, Shanaya, MataDewa } from './components/routes/index';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { sliderData } from './components/data/sliderData';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import 'aos/dist/aos.css';
+import "./utils.css";
+import './index.css';
+import './i18next';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <BrowserRouter>
+  <Routes>
+    <Route path='/' element={<App />} />
+    <Route path='/event' element={<Event slides={sliderData}/>} />
+    <Route path='/our-product' element={<Trailer />} />
+    <Route path='/news' element={<News />} />
+    <Route path='/news/shanaya-films' element={<Shanaya />} />
+    <Route path='/news/mata-dewa' element={<MataDewa />} />
+    <Route path='/news/mata-dewa-perjuangan-pebasket-tanpa-mata' element={<FilmDewa />} />
+    <Route path='/news/sinopsis-film-mata-dewa-pebasket-yang-satu-matanya-jadi-korban' element={<Kenny />} />
+    <Route path='/news/filo-kopi-sofi' element={<Sofi />} />
+  </Routes>
+  </BrowserRouter>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

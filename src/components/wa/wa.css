@@ -1,0 +1,28 @@
+.wa{
+    position: fixed;
+    border: 1px solid #25D366;
+    border-radius: 50%;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 15px 1px 15px;
+    text-align: center;
+    font-size: 30px;
+    bottom: 30px;
+    right: 50px;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.wa:hover{
+    color: #25D366;
+    background: transparent;
+    transition: .5s;
+}
+
+@media screen and (max-width: 600px) {
+    .wa{
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
