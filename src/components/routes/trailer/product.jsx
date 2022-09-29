@@ -101,9 +101,7 @@ const Trailer = () => {
               <p className='about__film'><b>duration : </b>{t('trailer.idris.duration')}</p>
               <p className='about__film'><b>production : </b>{t('trailer.idris.Production')}</p>
               <p className='about__film'><b>sinopsis : </b>{t('trailer.idris.sinopsis')}</p>
-              <div className='button__trailer'>
                 <Button text={'Watch Trailer'} btnClass={'btn-trailer'} href={'https://youtu.be/p-kebyL0wsQ'} />
-              </div>
             </div>
             <div className='right-content'>
               <img src={idris} alt='trailer pict' className='image__trailer' />
@@ -126,24 +124,6 @@ const Trailer = () => {
               <p className='about__film'><b>production : </b>{t('trailer.sofi.Production')}</p>
               <p className='about__film'><b>sinopsis : </b>{t('trailer.sofi.sinopsis')}</p>
               <Button text={'Watch Trailer'} btnClass={'btn-trailer'} href={'https://youtu.be/JAtLtNredfY'} />
-            </div>
-          </div>
-          <div className='film__content'>
-            <div className='left-content'>
-              <h2 className='title__film'>{t('trailer.idris.title')}</h2>
-              <p className='about__film'><b>Director : </b>{t('trailer.idris.director')}</p>
-              <p className='about__film'><b>Write Script : </b>{t('trailer.idris.writeScript')}</p>
-              <p className='about__film'><b>producer : </b>{t('trailer.idris.producer')}</p>
-              <p className='about__film'><b>cast : </b>{t('trailer.idris.cast')}</p>
-              <p className='about__film'><b>aired : </b>{t('trailer.idris.aired')}</p>
-              <p className='about__film'><b>episode : </b>{t('trailer.idris.episode')}</p>
-              <p className='about__film'><b>duration : </b>{t('trailer.idris.duration')}</p>
-              <p className='about__film'><b>production : </b>{t('trailer.idris.Production')}</p>
-              <p className='about__film'><b>sinopsis : </b>{t('trailer.idris.sinopsis')}</p>
-              <Button text={'Watch Trailer'} btnClass={'btn-trailer'} href={'https://youtu.be/'} />
-            </div>
-            <div className='right-content'>
-              <img src={fendi} alt='trailer pict' className='image__trailer' />
             </div>
           </div>
         </section>

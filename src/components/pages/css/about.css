@@ -1,6 +1,6 @@
 .feature {
-    display: flex;
-    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
     margin-bottom: 2rem ;
 }
 
@@ -51,10 +51,19 @@
     .features-content {
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
     }
 
     .u-title p{
         text-align: justify;
     }
 
+}
+
+@media screen and (max-width: 425px) {
+    .features-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
 }

@@ -160,9 +160,9 @@ const Content = () => {
           </div>
         </section>
       </div>
-      <section className='features' id='about'>
+      <section className='feature' id='about'>
         <div className="features-content">
-        <div className="container features">
+        <div className="features">
           <div className='u-title' data-aos="fade-down" data-aos-duration="2500">
             <AiOutlineCopy color='orangered' size={40}/>
             <h2>About Us</h2>
@@ -196,16 +196,16 @@ const Content = () => {
           <a className="youtube" href="https://youtube.com/channel/UCuMXlOSncSFQ_l7aWO4Bzzw"><FaYoutube /></a>
         </div>
         <div className='social-icon' data-aos="zoom-in-up" data-aos-duration='1500'>
-          <a className="tiktok" href="https://mobile.twitter.com/ptbsi"><FaTwitter /></a>
+          <a className="twitter" href="https://mobile.twitter.com/ptbsi"><FaTwitter /></a>
         </div>
         <div className='social-icon' data-aos="zoom-in-up" data-aos-duration='2000'>
-          <a className="spotify" href="https://www.linkedin.com/mwlite/in/bawor-seni-internasional-325720248"><FaLinkedinIn /></a>
+          <a className="linkedin" href="https://www.linkedin.com/mwlite/in/bawor-seni-internasional-325720248"><FaLinkedinIn /></a>
         </div>
         <div className='social-icon' data-aos="zoom-in-up" data-aos-duration='2500'>
-          <a className="instagram" href="https://instagram.com/baworseniinternasional?igshid=YmMyMTA2M2Y="><FaInstagram /></a>
+          <a className="instagram" href="https://www.instagram.com/ptbaworseniinternasional/"><FaInstagram /></a>
         </div>
-        <div className='social-icon' data-aos="zoom-in-up" data-aos-duration='2500'>
-          <a className="instagram" href="https://m.facebook.com/PTbaworseniinternasional"><FaFacebookF /></a>
+        <div className='social-icon' data-aos="zoom-in-up" data-aos-duration='3000'>
+          <a className="facebook" href="https://m.facebook.com/PTbaworseniinternasional"><FaFacebookF /></a>
         </div>
       </div>
       </section>
@@ -260,12 +260,6 @@ const Content = () => {
                         <div class="text">Radepa Studio</div>
                       </div>
                     </div>
-                    <div class="container__support" data-aos="zoom-in-down" data-aos-duration='2000'>
-                      <img src={edison} alt="Avatar" class="image" />
-                      <div class="overlay">
-                        <div class="text">Edison Taslim</div>
-                      </div>
-                    </div>  
                   </div>
               </div>
       </section>
@@ -376,6 +370,7 @@ const Content = () => {
               <a href="mailto:bawordigmark@bawsein.net">&bull; bawordigmark@bawsein.net</a>
               <a href="mailto:baworpublishing@bawsein.net">&bull; baworpublishing@bawsein.net</a>
               <a href="mailto:bawortv@bawsein.net">&bull; bawortv@bawsein.net</a>
+              <a href="mailto:baworads@bawsein.net">&bull; baworads@bawsein.net</a>
             </div>
           </div>
           <div className="footer-box">
@@ -390,7 +385,7 @@ const Content = () => {
             <h4>Contact Us</h4>
             <div className="footer-contact u-text-small">
               <p>
-                <FaMapMarkerAlt /> &nbsp; Jl. Letnan Sutopo BSD Cit
+                <FaMapMarkerAlt /> &nbsp; Jl. Letnan Sutopo BSD Cit, Serpong Tanggerang Selatan Banten 15310
               </p>
               <p>
                 <FaPhoneAlt /> &nbsp; 0812 410 2214 

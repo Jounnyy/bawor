@@ -84,16 +84,20 @@ p.title {
     color: red;
 }
 
-.tiktok:hover {
-    color: black;
+.twitter:hover {
+    color: #1DA1F2;
 }
 
-.spotify:hover {
-    color: green;
+.linkedin:hover {
+    color: rgb(0, 119, 181);
 }
 
 .instagram:hover {
     color: rgb(206, 56, 206);
+}
+
+.facebook:hover{
+    color: rgb(66, 103, 178);
 }
 
 @media screen and (max-width: 600px){

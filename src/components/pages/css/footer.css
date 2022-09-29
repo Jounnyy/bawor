@@ -29,8 +29,14 @@ section#footer {
     font-size: 1.5rem;
 }
 
+.footer-contact{
+    width: 90%;
+}
+
 .footer-contact p {
     display: flex;
+    justify-content:start;
+    font-size: 1.3rem;
     align-items: center;
     margin-bottom: 5px;
 }

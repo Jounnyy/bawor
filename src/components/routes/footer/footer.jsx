@@ -16,6 +16,7 @@ export default function Footer(){
                 <a href="mailto:bawordigmark@bawsein.net">&bull; bawordigmark@bawsein.net</a>
                 <a href="mailto:baworpublishing@bawsein.net">&bull; baworpublishing@bawsein.net</a>
                 <a href="mailto:bawortv@bawsein.net">&bull; bawortv@bawsein.net</a>
+                <a href="mailto:baworads@bawsein.net">&bull; baworads@bawsein.net</a>
                 </div>
             </div>
             <div className="footer-box">
@@ -30,7 +31,7 @@ export default function Footer(){
                 <h4>Contact Us</h4>
                 <div className="footer-contact u-text-small">
                 <p>
-                    <FaMapMarkerAlt /> &nbsp; Jl. Letnan Sutopo BSD Cit
+                    <FaMapMarkerAlt /> &nbsp; Jl. Letnan Sutopo BSD Cit, Serpong Tanggerang Selatan Banten 15310
                 </p>
                 <p>
                     <FaPhoneAlt /> &nbsp; 0812 410 2214 
