@@ -20,7 +20,7 @@ import logo from '../assets/bawor/LOGO PT VERSI 2 WEB.png';
 import radepaStudio from '../assets/bawor/rad.png';
 import aboutPict from '../assets/bawor/about.png';
 import homeLogo from '../assets/bawor/logo.png';
-import edison from '../assets/bawor/ed.png';
+import bawortv from '../assets/bawor/tv.png';
 import Address from '../assets/address.png';
 import Phone from '../assets/phone.png';
 import Email from '../assets/email.png';
@@ -229,6 +229,12 @@ const Content = () => {
                   <img src={baworPublishing} alt="Avatar" class="image" />
                   <div class="overlay">
                     <div class="text">Bawor Publishing</div>
+                  </div>
+                </div>
+                <div class="container__support" data-aos="zoom-in-down" data-aos-duration='1000'>
+                  <img src={bawortv} alt="Avatar" class="image" />
+                  <div class="overlay">
+                    <div class="text">Bawor Tv</div>
                   </div>
                 </div>
                 </div>
