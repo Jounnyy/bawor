@@ -11,10 +11,10 @@ import { questions } from '../data/faq';
 import { teams } from '../data/teams';
 
 import baworDigitalMarketing from '../assets/bawor/bawor_digital_marketing.png';
-import baworDigital from '../assets/bawor/Bawor Digital.png';
-import baworGraphic from '../assets/bawor/Bawor Graphic.png';
-import baworNews from '../assets/bawor/Bawor News.png';
-import baworInternasional from '../assets/bawor/Bawor Internasional.png';
+import baworDigital from '../assets/bawor/d.png';
+import baworGraphic from '../assets/bawor/g.png';
+import baworNews from '../assets/bawor/n.png';
+import baworInternasional from '../assets/bawor/i.png';
 import baworEventOrganizer from '../assets/bawor/bawor_event_oraganizer.png';
 import baworAdvertising from '../assets/bawor/Logo Logo sub bawor-02.png';
 import baworPublishing from '../assets/bawor/Logo Logo sub bawor-03.png';
