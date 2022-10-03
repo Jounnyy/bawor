@@ -22,9 +22,8 @@ export default function Footer(){
             <div className="footer-box">
                 <h4>Support</h4>
                 <div className="footer-links">
-                <a>&bull; Kelinda Studio</a>
-                <a>&bull; Radepa Studio</a>
-                <a>&bull; Edison Taslim</a>
+                <a>&bull; Kelindan Studio</a>
+                <a>&bull; Radepa Studio</a> 
                 </div>
             </div>
             <div className="footer-box">

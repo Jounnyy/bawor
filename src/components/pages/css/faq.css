@@ -46,9 +46,9 @@ button.question-icons {
 
 @media screen and (max-width: 600px){
   .question-title h4 {
-  font-size: 1.1rem;
-  font-weight: 600;
-  line-height: 1.4;
-  text-transform: uppercase;
-}
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
 }

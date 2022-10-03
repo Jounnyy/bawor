@@ -231,12 +231,6 @@ const Content = () => {
                     <div class="text">Bawor Publishing</div>
                   </div>
                 </div>
-                <div class="container__support" data-aos="zoom-in-down" data-aos-duration='1000'>
-                  <img src={bawortv} alt="Avatar" class="image" />
-                  <div class="overlay">
-                    <div class="text">Bawor Tv</div>
-                  </div>
-                </div>
                 </div>
                 <div className='support__list'>
                   <div class="container__support" data-aos="zoom-in-down" data-aos-duration='1000'>
@@ -249,6 +243,12 @@ const Content = () => {
                   <img src={baworEventOrganizer} alt="Avatar" class="image__bawor" />
                   <div class="overlay__bawor">
                     <div class="text">Bawor Event Organizer</div>
+                  </div>
+                </div>
+                <div class="container__support" data-aos="zoom-in-down" data-aos-duration='1000'>
+                  <img src={bawortv} alt="Avatar" class="image__bawor" />
+                  <div class="overlay__bawor">
+                    <div class="text">Bawor Tv</div>
                   </div>
                 </div>
                 </div>
@@ -298,6 +298,7 @@ const Content = () => {
                           <div class="box">
                               <img src={team.image} alt={team.name} />
                               <h3>{team.name}</h3>
+                              <h4>{team.email}</h4>
                               <h4>{team.jabatan}</h4>
                               <p>{team.desc}</p>
                           </div>
@@ -382,9 +383,8 @@ const Content = () => {
           <div className="footer-box">
             <h4>Support</h4>
             <div className="footer-links">
-              <a>&bull; Kelinda Studio</a>
+              <a>&bull; Kelindan Studio</a>
               <a>&bull; Radepa Studio</a>
-              <a>&bull; Edison Taslim</a>
             </div>
           </div>
           <div className="footer-box">
