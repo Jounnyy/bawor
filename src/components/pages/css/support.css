@@ -53,6 +53,9 @@ p.title__support {
   display: block;
   width: 100%;
   height: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .overlay, .overlay__bawor {
