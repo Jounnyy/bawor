@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { FaTiktok, FaSpotify, FaInstagram, FaYoutube, FaLinkedinIn, FaFacebookF, FaTwitter } from 'react-icons/fa';
+import { FaInstagram , FaYoutube, FaLinkedinIn, FaFacebookF, FaTwitter } from 'react-icons/fa';
 import { AiOutlineBars, AiOutlineCopy, AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { FaMapMarkerAlt, FaPhoneAlt, FaFax, FaEnvelope, FaGlobe } from "react-icons/fa";
 import { MdOutlineLibraryBooks } from 'react-icons/md';
@@ -11,6 +11,10 @@ import { questions } from '../data/faq';
 import { teams } from '../data/teams';
 
 import baworDigitalMarketing from '../assets/bawor/bawor_digital_marketing.png';
+import baworDigital from '../assets/bawor/Bawor Digital.png';
+import baworGraphic from '../assets/bawor/Bawor Graphic.png';
+import baworNews from '../assets/bawor/Bawor News.png';
+import baworInternasional from '../assets/bawor/Bawor Internasional.png';
 import baworEventOrganizer from '../assets/bawor/bawor_event_oraganizer.png';
 import baworAdvertising from '../assets/bawor/Logo Logo sub bawor-02.png';
 import baworPublishing from '../assets/bawor/Logo Logo sub bawor-03.png';
@@ -143,7 +147,7 @@ const Content = () => {
                 </h1>
                   <p className="u-text-small u-text-light" data-aos="fade-up-right" data-aos-duration='1500'>
                     {t('home.desc')}
-                  </p>
+          a        </p>
             <div className="header-cta" data-aos='fade-up' data-aos-duration='2500'>
               <Button text={"About Company"} btnClass={"btn-white"} href={"#about"}/>
               <Button text={"Our Gallery"} btnClass={"btn-orange"} href={"#gallery"}/>
@@ -229,6 +233,32 @@ const Content = () => {
                   <img src={baworPublishing} alt="Avatar" class="image" />
                   <div class="overlay">
                     <div class="text">Bawor Publishing</div>
+                  </div>
+                </div>
+                </div>
+                <div className='support__list'>
+                  <div class="container__support" data-aos="zoom-in-down" data-aos-duration='3000'>
+                  <img src={baworDigital} alt="Avatar" class="image" />
+                  <div class="overlay">
+                    <div class="text">Bawor Digital</div>
+                  </div>
+                </div>
+                <div class="container__support" data-aos="zoom-in-down" data-aos-duration='1500'>
+                  <img src={baworGraphic} alt="Avatar" class="image" />
+                  <div class="overlay">
+                    <div class="text">Bawor Graphic</div>
+                  </div>
+                </div>
+                <div class="container__support" data-aos="zoom-in-down" data-aos-duration='1000'>
+                  <img src={baworInternasional} alt="Avatar" class="image" />
+                  <div class="overlay">
+                    <div class="text">Bawor Internasional</div>
+                  </div>
+                </div>
+                <div class="container__support" data-aos="zoom-in-down" data-aos-duration='1000'>
+                  <img src={baworNews} alt="Avatar" class="image" />
+                  <div class="overlay">
+                    <div class="text">Bawor News</div>
                   </div>
                 </div>
                 </div>
